@@ -1,0 +1,139 @@
+header {
+  background: url(../Assignment-1/Assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+/* nav styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 150px;
+}
+.text-primary {
+  color: #4e47ff;
+}
+.nav-title {
+  font-weight: 100;
+  font-size: 50px;
+  transition: 0.2s;
+}
+.nav-button {
+  font-weight: 60px;
+  font-size: 25px;
+  background-color: #4e47ff;
+  color: white;
+  align-items: center;
+  padding: 15px 35px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.nav-button:hover {
+  background-color: green;
+  transition: 0.3s;
+}
+/* banner style */
+.banner-content {
+  text-align: center;
+  margin-top: 150px;
+}
+.banner-description {
+  font-weight: 900;
+  font-size: 65px;
+  text-align: center;
+}
+.banner-button {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #4e47ff;
+  color: white;
+  align-items: center;
+  padding: 15px 35px;
+  border-radius: 10px;
+  border: none;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.banner-button:hover {
+  background-color: black;
+  transition: 0.3s;
+}
+/* action style */
+.action {
+  margin: 115px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.action-content {
+  margin-left: 180px;
+}
+.action-title {
+  font-weight: bold;
+  font-size: 42px;
+}
+.action-subtitle {
+  font-size: 25px;
+  color: #252432;
+  opacity: 50%;
+}
+.action-button {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #4e47ff;
+  color: white;
+  align-items: center;
+  padding: 15px 35px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.action-button:hover {
+  background-color: black;
+  transition: 0.3s;
+}
+.action-img {
+  width: 400px;
+  border-radius: 50px;
+  margin-right: 150px;
+}
+/* user section style  */
+.user-section {
+  margin: 115px 150px;
+  background-color: rgba(78, 71, 255, 0.1);
+  padding: 50px 145px;
+  border-radius: 50px;
+}
+.centered-title {
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
+}
+.data-subtitle {
+  display: flex;
+  font-size: 80px;
+  font-weight: bold;
+  color: #4e47ff;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.subtitle-span {
+  font-size: 20px;
+  color: #000000;
+  opacity: 50%;
+}
+.data-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Users’ Feedback Section */
+.review-heading {
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #4e47ff;
+}
