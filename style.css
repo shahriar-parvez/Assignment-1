@@ -5,6 +5,9 @@ header {
   background-size: cover;
   height: 100vh;
 }
+body {
+  background-color: #f5f8ff;
+}
 /* nav styles */
 nav {
   display: flex;
@@ -217,7 +220,6 @@ nav {
 /*  touch style */
 
 .touch {
-  background: #f5f5f5;
   display: flex;
   justify-content: center;
   align-items: center;
